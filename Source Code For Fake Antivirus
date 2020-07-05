@@ -1,0 +1,74 @@
+@echo off
+
+
+echo STARTING SYSTEM SCAN
+pause
+
+
+
+cd C:\Windows\System32\
+
+tree
+
+
+
+echo SCAN 15 percent complete ...
+
+TIMEOUT 10
+
+
+
+
+cd C:\Windows\
+
+tree
+
+
+
+
+echo SCAN 57 percent complete...
+
+TIMEOUT 10
+
+
+cd C:\
+
+tree
+
+
+
+
+echo	SCAN COMPLETE
+
+PAUSE
+
+
+
+
+echo	.....................................................................
+
+
+
+echo	!!!! WARNING !!!!
+
+echo	1276 MALICIOUS FILES DETECTED
+
+echo	3568 SUSPICIOUS FILES DETECTED
+
+echo	!!!! WARNING !!!!
+
+
+
+echo    .....................................................................
+
+
+PAUSE
+
+
+
+
+echo IMPORTANT PLEASE READ THE FOLLOWING MESSAGE:
+
+echo Just kidding this is FAKE! : )
+
+echo It Was made for fun
